@@ -1,0 +1,878 @@
+@media (min-width: 1300px) {
+    .slider {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 1292px) {
+    .bestProjectItem {
+        width: 320px;
+    }
+    .newsItem {
+        width: 320px;
+    }
+    .newsImage {
+        height: 219px;
+    }
+    .footerItem {
+        width: 240px;
+    }
+    .menuItems>ul>li ul {
+        width: 200px;
+    }
+    .menuItems>ul>li ul li a {
+        font-size: 13px;
+    }
+    .menuItems>ul>li ul li ul {
+        left: 180px;
+    }
+    .menuItems>ul>li ul li ul li ul {
+        left: 175px;
+    }
+}
+
+@media (max-width: 1252px) {
+    .container {
+        width: 95%;
+    }
+    .serviceItem {
+        width: 250px;
+    }
+    .aboutImage {
+        width: 54%;
+    }
+    .aboutText {
+        width: 40%;
+    }
+    .pricingItem {
+        padding: 30px 50px 10px 20px;
+    }
+    .teamItem {
+        width: 230px;
+    }
+    .ieamImg {
+        height: 230px;
+    }
+    .bestProjectItem {
+        width: 300px;
+    }
+    .newsItem {
+        width: 292px;
+    }
+    .newsImage {
+        height: 200px;
+    }
+    .footerItem {
+        width: 350px;
+        margin-top: 20px;
+    }
+    .ideaList ul li {
+        margin: 46px 0px 50px 0px;
+    }
+    .moreDetailsItem {
+        width: 450px;
+        margin-top: 3rem;
+    }
+    .menuItems>ul>li:first-child {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .menuItems>ul>li {
+        display: inline-block;
+        padding: 35px 0px;
+        margin: 0px 5px;
+    }
+    .searchInfo {
+        right: 45px;
+    }
+    div.menuItems {
+        margin-right: 80px;
+    }
+}
+
+@media (max-width: 1055px) {
+    .serviceItem {
+        width: 400px;
+        margin-top: 2rem;
+    }
+    .moreDetailsItem {
+        width: 400px;
+        margin-top: 3rem;
+    }
+    .sliderCaption h1 {
+        font-size: 2.7em;
+    }
+    .sliderCaption p {
+        font-size: 1rem;
+    }
+    .sliderCaption a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 993px) {
+    .topMenuBg {
+        display: none;
+    }
+    #mblMenu {
+        width: 100%;
+        position: fixed;
+        background: #222222;
+        left: 0;
+        top: 72px;
+        padding: 0px;
+        z-index: 999999999;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: .5s;
+        height: 38vh;
+        overflow: auto;
+    }
+    #mblMenu ul li a {
+        display: block;
+    }
+    .openMenu {
+        transform: scaleY(1) !important;
+    }
+    #mblMenu ul li ul,
+    #mblMenu ul li ul li ul {
+        border: 1px solid #3E3E3E !important;
+    }
+    #mblMenu ul li ul li a {
+        color: #fff;
+    }
+    #mblMenu ul li:first-child {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #mblMenu ul li,
+    #mblMenu ul li ul li,
+    #mblMenu ul li ul li ul li {
+        display: block;
+        padding: 12px 20px;
+        margin: 0;
+        color: #fff;
+        border-bottom: 1px solid #3E3E3E !important;
+    }
+    /*
+    toggle btns
+    */
+    .toggler-icon i {
+        display: block;
+    }
+    #mblMenu .toggler-icon {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 7px;
+        border: 1px solid #3E3E3E;
+        padding: 5px 10px;
+        font-weight: 900;
+        font-size: 20px;
+        z-index: 999999999999999999999999999999999;
+        transition: .3s;
+    }
+    .activeToggler {
+        transform: rotate(180deg);
+        background: #fff;
+        color: #000;
+        border-radius: 3px;
+    }
+    /*
+    toggle btn
+    */
+    #mblMenu ul li ul li:last-child {
+        border-bottom: none !important;
+    }
+    .searchInfo {
+        position: fixed !important;
+        transition: .1s;
+        cursor: pointer;
+        z-index: 999;
+        color: #111;
+        top: 25px;
+        left: 24px;
+        width: 36px;
+    }
+    .searchInfoTranslate {
+        transform: translate(0px, 0px);
+    }
+    .fa-times {
+        transform: translate(0px, -21px);
+        transition: .2s;
+    }
+    #mblMenu>ul>li a {
+        color: #fff;
+    }
+    #mblMenu>ul>li ul li a::before {
+        display: none;
+    }
+    .mainMenuWrapper {
+        position: relative;
+    }
+    .active {
+        color: #fff !important;
+    }
+    .search {
+        z-index: 9999999999;
+        top: 48px;
+        left: 0px;
+    }
+    .mobileSearch {
+        display: block;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+    a#logo {
+        width: 140px;
+        margin: auto;
+    }
+    .toggler {
+        display: block;
+        background: #fff;
+        color: var(--color);
+        font-weight: 900;
+        font-size: 20px;
+        border: 1px solid var(--color);
+        padding: 9px 13px;
+        position: fixed;
+        top: 17px;
+        right: 9px;
+    }
+    .toggler:hover {
+        background: var(--color);
+        color: #fff;
+    }
+    /**/
+    #mblMenu>ul>li ul {
+        position: initial;
+        background: #222222;
+        padding: 0px;
+        position: initial !important;
+        width: 100%;
+        border: none;
+        display: none;
+        margin-top: 12px;
+    }
+    #mblMenu>ul>li ul li ul {
+        margin-top: 30px;
+        display: none;
+    }
+    .block {
+        display: block !important;
+    }
+    #mblMenu>ul>li>a:after {
+        display: none;
+    }
+    .subMenuArrow {
+        display: none;
+    }
+    #mblMenu ul li {
+        position: relative;
+        transition: .3s;
+    }
+    #mblMenu ul li:hover {
+        background: #333;
+    }
+    #mblMenu>ul>li>a {
+        font-family: var(--font);
+    }
+    /*search item*/
+    .search2 {
+        width: 300px;
+        padding: 25px 20px;
+        background: #fff;
+        display: flex;
+        border-radius: 3px;
+        border-top: 3px solid var(--color);
+        position: absolute;
+        top: 92px;
+        right: 0px;
+        opacity: 0;
+        visibility: hidden;
+        transition: .2s;
+        z-index: 99999;
+    }
+    .search2 input,
+    button {
+        border: none;
+        padding: 12px 14px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        outline: none;
+    }
+    .search2 button {
+        background: var(--color);
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .search2 input {
+        border: 1px solid #dddddd;
+        transition: .3s;
+    }
+    .search2 input::placeholder {
+        font-family: 'Work Sans', sans-serif;
+    }
+    .search2 input:focus {
+        border: 1px solid var(--color);
+    }
+    .search2 input:focus::placeholder {
+        color: var(--color);
+    }
+    .search2 button i {
+        color: #fff;
+        font-size: 12px !important;
+    }
+    .search-open2 {
+        opacity: 1;
+        visibility: visible;
+        transition: .7s;
+    }
+}
+
+@media (max-width: 986px) {
+    .pricingItem {
+        padding: 30px 20px 10px 10px;
+    }
+    .pricingItem h2 {
+        font-size: 1.2rem;
+    }
+    .pricingItem h1 {
+        font-size: 2.125rem;
+    }
+    .pricingItem ul li:last-child a {
+        padding: 8px 12px;
+    }
+    .subFooterWrapper {
+        padding: 25px 25px;
+    }
+    footer {
+        padding-top: 120px !important;
+    }
+    .bestProjectItem {
+        width: 260px;
+    }
+    .teamWrapper {
+        flex-wrap: wrap;
+    }
+    .teamItem {
+        width: 350px;
+    }
+    .ieamImg {
+        height: 348px;
+    }
+}
+
+@media (max-width: 932px) {
+    .newsItem {
+        width: 232px;
+    }
+    .newsImage {
+        height: 159px;
+    }
+    .newsText h3 a {
+        font-size: 17px;
+    }
+    .newsTopDetails {
+        font-size: 10px;
+    }
+    .newsText p {
+        font-size: 13px;
+    }
+    .newsText>a {
+        font-size: 12px;
+    }
+    .title h1 {
+        font-size: 30px;
+    }
+    .title p {
+        font-size: 13px;
+    }
+    .bestProjectWrapper {
+        flex-wrap: wrap;
+    }
+    .aboutWrapper {
+        flex-direction: column;
+    }
+    .aboutImage {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .aboutText {
+        width: 80%;
+    }
+    .aboutText button {
+        padding: 15px 50px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 862px) {
+    .pricingItem h2 {
+        font-size: 2.2rem;
+    }
+    .pricingItem h1 {
+        font-size: 4.125rem;
+    }
+    .pricingItem ul li {
+        font-size: 18px;
+    }
+    .pricingItem ul li:last-child a {
+        padding: 20px 40px;
+    }
+    .pricingItem {
+        padding: 37px 39px 21px 20px;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    .serviceItem {
+        width: 300px;
+    }
+    .moreDetailsItem {
+        width: 46%;
+    }
+    .ideaContent {
+        width: 100%;
+    }
+    .bestProjectItem {
+        width: 33%;
+    }
+    .bestProjectItem .projectText h3 {
+        font-size: 15px;
+    }
+    .counterItemWrapper {
+        flex-direction: column;
+    }
+    .counterItem {
+        margin: 40px 0px;
+    }
+    .ideaWrapper {
+        flex-direction: column-reverse;
+    }
+    .ideaBg {
+        background: url(../image/s02.jpg);
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+}
+
+@media (max-width: 741px) {
+    .serviceItem {
+        width: 100%;
+    }
+    .serviceItem h2 a {
+        font-size: 1.8rem;
+    }
+    .ieamImg img {
+        width: 100%;
+    }
+    .teamItem {
+        width: 100%;
+    }
+    .ieamImg {
+        height: 70%;
+    }
+    .ieamText h2 {
+        font-size: 26px;
+    }
+    .ieamText p {
+        font-size: 16px;
+    }
+    .bestProjectItem {
+        width: 100%;
+    }
+    .bestProjectItem .projectText h3 {
+        font-size: 35px;
+    }
+    .newsWrapper {
+        flex-direction: column;
+    }
+    .newsItem {
+        width: 100%;
+        margin: 30px 0px;
+    }
+    .newsImage img {
+        width: 100%;
+        height: 100%;
+    }
+    .newsImage {
+        height: 100%;
+        width: 100%;
+    }
+    .newsText h3 a {
+        font-size: 22px;
+    }
+    .newsText p {
+        font-size: 15px;
+    }
+    .newsText>a {
+        font-size: 14px;
+    }
+    .subFooterWrapper {
+        flex-direction: column;
+    }
+    .subFooterItem {
+        width: 100%;
+        margin: 20px;
+    }
+    .subFooterWrapper h2 {
+        font-size: 30px;
+    }
+    .subFooterItem p {
+        font-size: 18px;
+    }
+    .footerItem {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footerItem h3 {
+        font-size: 24px;
+    }
+    .footerAbout p {
+        font-size: 17px;
+    }
+    .footerItem ul li a {
+        font-size: 18px !important;
+    }
+    .fDateWrapper {
+        justify-content: flex-start;
+    }
+    .footerPost .fDateDiv {
+        margin-right: 25px;
+    }
+    .fPostDetails {
+        width: 300px;
+    }
+    .moreDetailsItem {
+        width: 100%;
+        margin: 30px 0px;
+    }
+    .moreDetailsItem img {
+        width: 100%;
+    }
+    .moreDetailsItem h3 {
+        font-size: 25px;
+    }
+    .title p {
+        width: 300px;
+    }
+    .bestProjectItem {
+        margin: 30px 0px;
+    }
+    .searchInfo {
+        left: 14px;
+    }
+}
+
+@media (max-width: 592px) {
+    .bestProjectItem .projectText h3 {
+        font-size: 30px;
+    }
+    .sliderCaption h1 {
+        font-size: 1.7rem;
+    }
+    .sliderCaption p {
+        font-size: .9rem;
+    }
+    .sliderCaption a {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .serviceItem h2 a {
+        font-size: 1.3rem;
+    }
+    .serviceItem p {
+        font-size: 14px;
+    }
+    .serviceItem a {
+        font-size: .9rem;
+    }
+    .aboutText h1 {
+        font-size: 27px;
+    }
+    .aboutText p {
+        font-size: 14px;
+    }
+    .aboutText {
+        width: 100%;
+    }
+    .aboutList {
+        flex-wrap: wrap;
+    }
+    .aboutText button {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+    .counterItem h1 {
+        font-size: 40px;
+    }
+    .counterItem h3 {
+        font-size: 18px;
+    }
+    .fa-smile:before {
+        font-size: 50px;
+    }
+    .moreDetailsItem h3 {
+        font-size: 20px;
+    }
+    .moreDetailsItem p {
+        font-size: 13px;
+    }
+    .pricingItem h2 {
+        font-size: 1.2rem;
+    }
+    .pricingItem h1 {
+        font-size: 3rem;
+    }
+    .pricingItem ul li {
+        font-size: 14px;
+    }
+    .pricingItem ul li:last-child a {
+        padding: 12px 25px;
+    }
+    .ideaTitle h1 {
+        font-size: 22px;
+    }
+    .ideaTitle p {
+        font-size: 14px;
+    }
+    .ideaList ul li {
+        margin: 25px 0px 50px 0px;
+    }
+    .ideaList ul li div h2 a {
+        font-size: 16px;
+    }
+    .ideaList ul li div p {
+        color: #DDDDDD;
+        font-size: 12px;
+    }
+    .ideaList ul li i {
+        font-size: 40px;
+    }
+    .ieamText h2 {
+        font-size: 20px;
+    }
+    .ieamText p {
+        font-size: 13px;
+    }
+    .bestProjectItem .projectText h3 {
+        font-size: 20px;
+    }
+    .bestProjectItem .projectText strong {
+        font-size: 12px;
+    }
+    .bestProjectItem a {
+        font-size: 13px;
+    }
+    .newsText h3 a {
+        font-size: 17px !important;
+    }
+    .newsText p {
+        font-size: 12px;
+    }
+    .newsText>a {
+        font-size: 12px;
+    }
+    .subFooterWrapper h2 {
+        font-size: 20px;
+    }
+    .subFooterItem p {
+        font-size: 14px;
+    }
+    .subFooterWrapper ul li a {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+    .subscribeDiv input[type="email"] {
+        padding: 12px;
+        font-size: 13px;
+    }
+    .subscribeDiv input[type="submit"] {
+        padding: 12px;
+        width: 30%;
+        font-size: 13px;
+    }
+    .footerAbout p {
+        font-size: 14px;
+    }
+    .footerItem ul li a {
+        font-size: 15px !important;
+    }
+    .footerItem>ul li,
+    h4,
+    p,
+    a {
+        font-size: 13px;
+    }
+    .footerItem>ul li,
+    h4,
+    p,
+    a {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .title h1 {
+        font-size: 26px;
+    }
+    .search {
+        width: 275px;
+        padding: 18px 20px;
+    }
+    .search button {
+        font-size: 8px;
+    }
+    .search input,
+    button {
+        padding: 10px 9px;
+    }
+    .search {
+        top: 47px;
+    }
+    .slider {
+        height: 70vh;
+    }
+    #mblMenu ul li,
+    #mblMenu ul li ul li,
+    #mblMenu ul li ul li ul li {
+        padding: 12px 20px 2px 20px;
+    }
+}
+
+@media (max-width: 325px) {
+    #mblMenu {
+        height: 35vh;
+    }
+    .searchInfo {
+        left: 8px;
+    }
+    .sliderCaption h1 {
+        font-size: 1.3rem;
+    }
+    .sliderCaption p {
+        font-size: .7rem;
+    }
+    .sliderCaption a {
+        font-size: 12px;
+    }
+    .aboutText h1 {
+        font-size: 24px;
+    }
+    .aboutText p {
+        font-size: 13px;
+    }
+    .aboutList ul li a {
+        font-size: 14px;
+    }
+    .aboutText button {
+        padding: 10px 26px;
+        font-size: 13px;
+    }
+    .pricingItem h1 {
+        font-size: 2rem;
+    }
+    .pricingItem h2 {
+        font-size: 1rem;
+    }
+    .pricingItem ul li:last-child a {
+        padding: 10px 22px;
+    }
+    .ideaTitle h1 {
+        font-size: 17px;
+    }
+    .ideaTitle p {
+        font-size: 13px;
+    }
+    .ideaList ul li div {
+        width: 66%;
+    }
+    .button.joinUs {
+        width: 160px;
+        font-size: 12px;
+    }
+    .bestProjectItem .projectText h3 {
+        font-size: 17px;
+    }
+    .subscribeDiv input[type="email"] {
+        padding: 11px;
+        font-size: 11px;
+    }
+    .subscribeDiv input[type="submit"] {
+        padding: 11px;
+        width: 28%;
+        font-size: 11px;
+    }
+    .footerItem h3 {
+        font-size: 20px;
+    }
+    .footerAbout p {
+        font-size: 12px;
+    }
+    .footerItem ul li a {
+        font-size: 14px !important;
+    }
+    footer {
+        padding-top: 95px !important;
+    }
+    .projectText {
+        padding: 20px 20px 32px 25px;
+    }
+    .counterItem i {
+        font-size: 40px;
+    }
+    .counterItem h1 {
+        font-size: 35px;
+    }
+    .counterItem h3 {
+        font-size: 16px;
+    }
+    .title p {
+        width: 200px;
+        font-size: 11px;
+    }
+    .title h1::after {
+        width: 42px;
+        height: 2.5px;
+    }
+    .pricingItem ul li {
+        font-size: 13px;
+    }
+    a#logo {
+        width: 100px;
+        margin: auto;
+        margin-top: 3px;
+    }
+    .toggler {
+        font-size: 18px;
+        padding: 6px 10px;
+    }
+    #mblMenu {
+        top: 62px;
+    }
+    #mblMenu>ul>li a {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .search {
+        width: 258px;
+        padding: 18px 20px;
+    }
+    .search {
+        top: 38px;
+        left: -10px;
+    }
+    .sliderCaption p {
+        margin-bottom: 70px;
+        margin-top: 30px;
+    }
+}
